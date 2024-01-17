@@ -1,0 +1,17 @@
+1- input
+
+
+type attribute
+1- text - Displays a single line text input field
+2- radio -  For selecting many choice
+3- checkbox - for selecting zero or more choice
+4- submit - Display sbumit button for submit the form
+5- button - Display a clickable button
+
+
+===========================================================================================
+2- label
+3- select
+4- textArea
+5- button
+6- 

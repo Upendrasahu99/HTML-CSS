@@ -1,0 +1,4 @@
+1. Html is Hyper Text Markup Language
+2. Hyper Text - A Webpage is created by preparing a hypertext document embedded with appropriate links or URLs. A hypertext document has text along with links. It non linear.
+3. Markup language - Markup means to structure in a specific way
+4. html file name should be in "snake case", mean lower case with huphern(-) seprateed word. ex. "name-text-tex.html".

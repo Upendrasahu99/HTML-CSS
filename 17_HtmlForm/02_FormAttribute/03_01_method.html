@@ -1,0 +1,25 @@
+<!-- 
+    method
+
+    1. specifies the HTTP method(get, post) to be used when submitting the form data.
+    2. post - when we want to submit the data on server we mostely prefer post, beacuse data will go in encrypted form.
+    3. get - when we want to submit the data in clear text form, data will visible on url when we submit the form. Example - google search form. See image number 2 and 3 for understand get.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="url" method="get"> 
+        <!-- We need url for submit the form -->
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="fname" value="John">
+        <!-- for attribute of the label should be equal to the id attribute of input element to bind them together -->
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
