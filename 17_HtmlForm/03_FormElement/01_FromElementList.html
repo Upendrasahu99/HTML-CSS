@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            FormElement
+        </title>
+    </head>
+    <body>
+        <h1>Form element</h1>
+        <form action="" method="" target="" autocomplete="">
+            <!-- "input"  -->
+            <input type="text"  placeholder="First Name" name="" id=""><br>
+
+            <!-- "label" -->
+            <!-- 
+                1."label" is provide label for input element
+                2.Some time screen reader not able to read placeholder than we use placeholder.
+                3."for" attribute tell use which input is asocieted wich input, it is same us input "id". In UI when we click on label it automaticly higlight the input field or box.
+             -->
+            <label for="fname">First Name</label><br>
+            <input type="text" name="" id="fname">
+
+
+            
+
+            <!-- Button -->
+            <!-- 1. It work same as "input submit" but it also work on  -->
+            <button type="submit">Submit</button>
+
+
+            <!-- select -->
+            <!-- 
+                1. for drop down
+                2. Default firs element is selected but we can use "selected" attribute for default selection
+                3. size use for visible number of value
+                4. "multiple" allow to select multiple value using press "ctrl"
+             -->
+
+             <label for="cars">Chose car</label>
+             <select name="cars" id="cars" size="3" multiple>
+                <option value="Maruti">Maruti</option>
+                <option value="Tata">Tata</option>
+                <option value="Hyundai">Hyundai</option>
+             </select>
+
+
+             <!-- textarea -->
+             <!-- 
+                1. element defined a multi-line input field(a text area):
+              -->
+
+              <label for="text">textarea</label>
+              <textarea name="" id="text" cols="20" rows="9"></textarea>
+        </form>
+    </body>
+</html>
