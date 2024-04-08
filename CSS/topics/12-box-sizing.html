@@ -1,0 +1,55 @@
+<!-- Box-sizing -->
+<!-- 
+    1. There is two property of box sizing "border-box" and "content-box"
+    2. "border-box" : won't change it size whatever padding and margin 
+    3. We can use on image it will not increse box
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <div id="step-1">
+        <div id="text-box">
+            before giving any padding div(box) widht 500px 
+        </div>
+        <style>
+            #text-box{
+                width: 500px;
+            }
+        </style>
+    </div> -->
+    <!-- <div id="step-2">
+        <div id="text-box">
+            After giving any padding div(box) widht increase
+        </div>
+        <style>
+            #text-box{
+                width: 500px;
+                border: 50px solid black;
+                padding: 50px;
+            }
+        </style>
+    </div> -->
+    <div id="step-1">
+        <div id="text-box">
+            After giving  "box-sizing:border-box" it will not increase width, It will remain same 500px always whatever margin and padding we give
+        </div>
+        <style>
+            #text-box{
+                width: 500px;
+                border: 10px solid black;
+                padding: 50px;
+                box-sizing: border-box;
+            }
+        </style>
+    </div>
+
+
+
+</body>
+</html>

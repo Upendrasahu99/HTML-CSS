@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(5.85deg 20.6% 39.02%);
+    display: flex; /* It will make child component in horizontal line because default row direction is row*/
+}
+#part1{
+    height: 100%;
+    width:26%;
+    /* background-color: red; */
+}
+#part2{
+    height: 100%;
+    width:67%;
+    /* background-color: green; */
+    background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW9kZWx8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(6, 21%, 39%, 0.402);
+}
+#part3{
+    height: 100%;
+    width:7%;
+    /* background-color: blue; */
+}
+#text-div{
+    /* height: 300px; */
+    position: absolute;
+    width: 400px;
+    /* background-color: red; */
+    left: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#text-div>h1{
+    font-size: 85px;
+    font-family:Fantasy;
+    font-weight: 900;
+    line-height: 78px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 8px;
+    /* letter-spacing: 5px; */
+}
+#small-img-div{
+    height: 400px;
+    width: 300px;
+    /* background-color: red; */
+    background-image: url("https://images.unsplash.com/photo-1529680459049-bf0340fa0755?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+}
+#vertical-text{
+    position: absolute;
+    /* width: 100%; */
+    /* background-color: red; */
+    transform: rotate(90deg);
+    right: -25%;
+    top: 30%;
+}
+#vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: fantasy;
+    -webkit-text-stroke-width: 1px; /* make letter border */
+    -webkit-text-stroke-color: white; /* make letter border color */
+    letter-spacing: 15px;
+    color: transparent;
+    text-transform: uppercase;
+}

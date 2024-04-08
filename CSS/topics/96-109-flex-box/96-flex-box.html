@@ -1,0 +1,42 @@
+<!-- 
+    flex -box
+
+    1.  New module in CSS# to easy align elements in differen direction and orders.
+    2.  FlexBox is to gives container the ability to expand and shrink inner elements to best use all the available space.
+    3.  Using flexbox layout we don't need to add float we can easily move element
+    4.  We can create one-dimensional layouts easily, means we can handle only one thing at time if row or column
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            background-color: rgb(216, 207, 207);
+            margin: 100px;
+            text-align: center;
+            padding: 20px;
+            border: 5px solid black;
+        }
+        #item1{background-color:rgb(4, 189, 251);}
+        #item2{background-color: rgb(4, 242, 4);}
+        #item3{background-color: rgb(243, 9, 9);}
+        #item4{background-color: rgb(74, 12, 243);}
+    </style>
+ </head>
+ <body>
+    <div id="container">
+        <div id="item1">One</div>
+        <div id="item2">Two</div>
+        <div id="item3">Three</div>
+        <div id="item4">Four</div>
+    </div>
+    <style>
+        #container{
+            display: flex; /* It automaticaly change the column to row all data */
+        }
+    </style>
+ </body>
+ </html>

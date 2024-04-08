@@ -1,0 +1,63 @@
+<!-- Flex direction
+    1.row
+    2.row-reverse
+    3.column
+    4.column-reverse
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+       #container{
+           background-color: rgb(216, 207, 207);
+           margin: 100px;
+           text-align: center;
+           padding: 20px;
+           border: 5px solid black;
+           color: white;
+       }
+       #item1{background-color:rgb(4, 189, 251);}
+       #item2{background-color: rgb(4, 242, 4);}
+       #item3{background-color: rgb(243, 9, 9);}
+       #item4{background-color: rgb(74, 12, 243);}
+   </style>
+</head>
+<body>
+   <div id="container">
+       <div id="item1">One</div>
+       <div id="item2">Two</div>
+       <div id="item3">Three</div>
+       <div id="item4">Four</div>
+   </div>
+   <!-- row
+        1.It's a bydefault property
+        2.It's go from left to right.
+    -->
+   <style>
+       #container{
+           display: flex;
+           flex-direction: row;
+           /* flex-direction: row-reverse; */
+           /* flex-direction: column; */
+           /* flex-direction: column-reverse; */
+       }
+   </style>
+
+
+   <!-- row-reverse
+        1.It's go from right to left
+    -->
+
+   <!-- column
+        1.top to bottom
+    -->
+
+   <!-- column-reverse
+        1.It will go bottom to top
+    -->
+</body>
+</html>

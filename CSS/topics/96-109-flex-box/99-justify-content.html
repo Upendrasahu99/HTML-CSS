@@ -1,0 +1,57 @@
+<!-- 
+    It mostly use for horizontal alignment.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            border: 2px solid black;
+            display: flex;
+        }
+        #box div{
+            height: 50px;
+            width: 50PX;
+            color: white;
+            line-height: 50px;
+            text-align: center;
+        }
+        #box div:nth-child(1){background-color: GREEN;}
+        #box div:nth-child(2){background-color: blue;}
+        #box div:nth-child(3){background-color: purple;}
+        #box div:nth-child(4){background-color: rgb(67, 67, 60);}
+        #box div:nth-child(5){background-color: rgb(124, 91, 29);}
+        #box div:nth-child(6){background-color:rgb(131, 132, 197);}
+        #box div:nth-child(7){background-color: red;}
+        #box div:nth-child(8){background-color: blueviolet;}
+
+
+
+        /* 1 */
+        #box{
+            justify-content: center;
+            justify-content: flex-end;
+            justify-content: flex-start; /* by defalut property */
+            justify-content: space-between;
+            justify-content: space-around;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+<body>
+    <h1>Yahoo Baba: CSS Flex-Wrap</h1>
+    <div id="box">
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+        <div>Five</div>
+        <div>Six</div>
+        <div>Seven</div>
+        <div>Eight</div>
+    </div>
+</body>
+</html>
